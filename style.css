@@ -145,8 +145,8 @@ nav ul li a:hover {
 }
 
 .product-card img {
-    width: 90%;
-    height: 380px;
+    width: 80%;
+    height: 360px;
     object-fit: cover;
     margin-bottom: 15px;
 }
