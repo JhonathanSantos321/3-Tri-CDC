@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(182, 0, 0);
+    --primary-color: rgb(255, 255, 255);
     --secondary-color: #e0e0e0;
     --text-color: #333;
     --accent-color: #a8dadc;
@@ -30,7 +30,7 @@ h2 {
 
 /* Header */
 header {
-    background-color: #f53a3a;
+    background-color: gold;
     padding: 15px 0;
     border-bottom: 1px solid var(--seconolordary-c);
     position: sticky;
@@ -103,7 +103,7 @@ nav ul li a:hover {object-fit: cover;
 .btn {
     display: inline-block;
     background-color: white;
-    color: black;
+    color: rgb(95, 95, 95);
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 5px;
@@ -121,7 +121,7 @@ nav ul li a:hover {object-fit: cover;
 /* Products Section */
 #produtos {
     padding: 40px 0;
-    background-color: #000000;
+    background-color: #2b2a2a;
 }
 
 .product-grid {
@@ -132,7 +132,7 @@ nav ul li a:hover {object-fit: cover;
 }
 
 .product-card {
-    background-color: #f06b13;
+    background-color: #999999;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     overflow: hidden;
@@ -150,7 +150,7 @@ nav ul li a:hover {object-fit: cover;
     height: 360px;
     object-fit: cover;
     margin-bottom: 15px;
-    filter: brightness(1.8);
+    filter: brightness(0.9);
 }
 
 .product-card h3 {
