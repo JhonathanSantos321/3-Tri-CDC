@@ -1,9 +1,9 @@
 :root {
     --primary-color: rgb(255, 255, 255);
     --secondary-color: #e0e0e0;
-    --text-color: #333;
-    --accent-color: #a8dadc;
-    --button-hover-color: #457b9d;
+    --text-color: #ff0000;
+    --accent-color: #ffffff;
+    --button-hover-color: #12181b;
 }
 
 body {
@@ -30,7 +30,7 @@ h2 {
 
 /* Header */
 header {
-    background-color: gold;
+    background-color: rgb(255, 0, 0);
     padding: 15px 0;
     border-bottom: 1px solid var(--seconolordary-c);
     position: sticky;
@@ -47,7 +47,7 @@ header .container {
 .logo {
     font-size: 1.8em;
     font-weight: bold;
-    color: black;
+    color: rgb(4, 5, 56);
 }
 
 nav ul {
@@ -76,7 +76,7 @@ nav ul li a:hover {object-fit: cover;
 #hero {
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(255, 0, 0);
     margin-bottom: 40px;
 }
 
@@ -102,8 +102,8 @@ nav ul li a:hover {object-fit: cover;
 
 .btn {
     display: inline-block;
-    background-color: white;
-    color: rgb(95, 95, 95);
+    background-color: rgba(3, 32, 126, 0.767);
+    color: rgb(255, 255, 255);
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 5px;
@@ -132,7 +132,7 @@ nav ul li a:hover {object-fit: cover;
 }
 
 .product-card {
-    background-color: #999999;
+    background-color: #dacbcb;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     overflow: hidden;
@@ -172,7 +172,7 @@ nav ul li a:hover {object-fit: cover;
 
 /* Footer */
 footer {
-    background-color: #f53333;
+    background-color: #ff0000;
     color: white;
     padding: 40px 0;
     text-align: center;
